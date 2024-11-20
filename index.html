@@ -30,8 +30,57 @@ diferentes resultados. -->
 </head>
 <body>
     <form action="" method="get"></form>
-        <label for="name">nombre:</label>
+        <label for="name">Nombre:</label>
         <input type="text" name="name" id="name" maxlength="50">
+        <br><br>
+        <!---->
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" name="mail" id="mail">
+        <br><br>
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url">
+        <br><br>
+        <!---->
+        <label for="date">Fecha:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <!---->
+        <label for="time">Tiempo:</label>
+        <input type="time" name="time" id="time">
+        <br><br>
+        <!---->
+        <label for="alldate">Fecha y hora:</label>
+        <input type="datetime-local" name="alltime" id="alldate">
+        <br><br>
+        <!---->
+        <label for="mes">Mes:</label>
+        <select id="mes" name="mes" required>
+            <option value="01">Enero</option>
+            <option value="02">Febrero</option>
+            <option value="03">Marzo</option>
+            <option value="04">Abril</option>
+            <option value="05">Mayo</option>
+            <option value="06">Junio</option>
+            <option value="07">Julio</option>
+            <option value="08">Agosto</option>
+            <option value="09">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select><br><br>
+        <!---->
+        <label for="week">Semana:</label>
+        <input type="week" name="week" id="week"><br><br>
+        <!---->
+        <label for="number">Número (min -10, max 10):</label>
+        <input type="number" name="number" id="number" min="-10" max="10"><br><br>
+        <!---->
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="phone" id="phone" placeholder="123-450-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br><br>
+        <!---->
+        <label for="searching">Término de búqueda</label>
+        <input type="" name="searching" id="searching">
+
     
 </body>
 </html>
